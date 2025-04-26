@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from "react-router-dom"; // Quitamos BrowserRouter
+import { Routes, Route } from "react-router-dom";
 import Home from './componentes/Home';
 import Contact from './componentes/Contact';
 import About from './componentes/About';
