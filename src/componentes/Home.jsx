@@ -7,6 +7,7 @@ function Home() {
 
   const goContact = () => navigate('/contact');
   const goAbout = () => navigate('/about');
+  const goTest = () => navigate('/test');
 
   return (
     <div className="home-container">
@@ -20,6 +21,10 @@ function Home() {
 
         <button className="home-button" onClick={goAbout}>
           Ir a Sobre Nosotros
+        </button>
+
+        <button className="home-button" onClick={goTest}>
+          Ir a Prueba
         </button>
       </div>
     </div>

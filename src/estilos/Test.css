@@ -1,0 +1,58 @@
+/* Test.css */
+.test-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  }
+  
+  .test-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #00796b;
+    text-align: center;
+  }
+  
+  .test-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #004d40;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .test-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .test-button:hover {
+    background-color: #00796b;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .test-title {
+      font-size: 2rem;
+    }
+  
+    .test-description {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .test-button {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.1rem;
+    }
+  }
+  
